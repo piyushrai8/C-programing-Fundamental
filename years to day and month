@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() 
+{
+    int total_days;
+
+    printf("Enter the value of days = ");
+    scanf("%d", &total_days);
+
+    // 1. Saal calculate karo
+    int years = total_days / 365;
+    int remaining_days = total_days % 365;
+
+    // 2. Bache hue dino se mahine calculate karo
+    int months = remaining_days / 30;
+
+    // 3. Aakhri bache hue din
+    int days = remaining_days % 30;
+
+    // Output format
+    printf("\nResult: %d Saal, %d Mahine, aur %d Din\n", years, months, days);
+
+    return 0;
+}

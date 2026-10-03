@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{ // area of circle
+	 float r ;
+printf("enter the value of r =");
+scanf("%f", &r);
+float area= 3.14 * r*r;
+printf("here is area %f" , area);
+return 0 ;
+}

@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+	float basic_salary ;
+	printf("eneter the basic salary");
+	scanf("%f", &basic_salary);
+	// usko 10 percent hra mila 
+	float extra_hra =( basic_salary)*10/100 ;
+	// usko 25 percent extra da mila 
+	float extra_da = (basic_salary)*25/100 ;
+	float kul_paisa = basic_salary + extra_hra + extra_da ;
+	printf("le baau kul paisa = %f", kul_paisa);
+	return 0 ;
+}

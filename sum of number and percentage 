@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{ // calculate sum of number and percentage
+float p,m,c,h,e;
+printf("enter the five subject marks:");
+       scanf("%f %f %f %f %f" ,&p ,&m ,&c,&h,&e);
+   float  sum= p+m+c+h+e;
+   printf("here is sum %f  ", sum);
+   float percentage  =(sum/500.0)*100.0;
+     printf("here is percentage = %f", percentage);
+       return 0 ;
+}

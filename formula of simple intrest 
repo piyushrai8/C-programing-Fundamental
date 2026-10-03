@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{ // formula for simple intrest 
+	 float p,r,t ;
+printf("enter the value of p, r,t =");
+scanf("%f %f %f", &p,&r,&t);
+float si = ( p*r*t)/ 100.0 ;
+printf("here is answer %f" ,si);
+return 0 ;
+}

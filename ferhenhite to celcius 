@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{ // convert temperature in fernhite in celcius
+	 float c ;
+printf("enter the value of c =");
+scanf("%f", &c);
+float f = (c*9/5)+32 ;
+printf("here is  ferhenhite =%f" , f);
+return 0 ;
+}
